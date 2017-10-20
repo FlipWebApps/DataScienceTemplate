@@ -1,4 +1,5 @@
 ![](https://travis-ci.org/FlipWebApps/DataScienceTemplate.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/FlipWebApps/DataScienceTemplate/badge.svg?branch=master)](https://coveralls.io/github/FlipWebApps/DataScienceTemplate?branch=master)  
 
 # DataScienceTemplate
 A template for data science projects
