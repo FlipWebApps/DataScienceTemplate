@@ -17,6 +17,9 @@ Download a copy of the files from this repository and modify as suited. In parti
 ├── environment.yml      <- conda environment definition for ensuring consistent setup across environments
 ├── LICENSE
 ├── README.md            <- The top-level README for developers using this project.
+├── requirements.txt     <- The requirements file for reproducing the analysis environment, e.g.
+│                           generated with `pip freeze > requirements.txt`
+│
 ├── data
 │   ├── interim_[desc]   <- Interim files - give these folders whatever name makes sense.
 │   ├── processed        <- The final, canonical data sets for modeling.
@@ -26,9 +29,6 @@ Download a copy of the files from this repository and modify as suited. In parti
 │
 ├── eda                  <- Exploratory analysis notebooks and files. 
 │   └── example.ipynb    <- Example notebook
-│
-├── requirements.txt     <- The requirements file for reproducing the analysis environment, e.g.
-│                           generated with `pip freeze > requirements.txt`
 │
 ├── src                  <- Code for use in this project.
 │   ├── __init__.py
