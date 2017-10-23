@@ -2,10 +2,14 @@
 [![Coverage Status](https://coveralls.io/repos/github/FlipWebApps/DataScienceTemplate/badge.svg?branch=master)](https://coveralls.io/github/FlipWebApps/DataScienceTemplate?branch=master)  
 
 # DataScienceTemplate
-A starting template for data science projects. This template should be adopted to your projects needs
+This is a simple starting template for data science projects that contains many of the essential artifacts that you will need and presents a number of best practices.
+
+As it is impossible to create a single template that will meet all of a projects needs this example should be considered dynamic and changed based upon the working and evolution of your project.
+
+# Usage
+Download a copy of the files from this repository and modify as suited. In particular this readme file should be updated to describe your project including setup, configuration and usage.
 
 # Initial File Structure
-The file structure should be considered dynamic based upon the working and evolution of your project.
 
 ```
 ├── .gitignore           <- Files that should be ignored by git. Add seperate .gitignore files in sub folders if needed
@@ -38,7 +42,7 @@ The file structure should be considered dynamic based upon the working and evolu
 ```
 
 # Testing
-If a code block is copied more than one then it should be placed into a common script under src and unit tests added. The same applies for any other non trivial code to ensure the correct functioning.
+Reproducability and the correct functioning of code are essential to avoid wasted time. If a code block is copied more than one then it should be placed into a common script under src and unit tests added. The same applies for any other non trivial code to ensure the correct functioning.
 
 To run tests, install pytest using pip or conda and then from the repository root run 
 ```pytest```
