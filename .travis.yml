@@ -31,6 +31,8 @@ install:
     - conda env create -n test-environment -f conda_env.yml
     - source activate test-environment
     #- python setup.py install
+    # add any non conda packages
+    - pip install coveralls
 
 # command to run tests
 script:
