@@ -1,7 +1,8 @@
-## This file specifies files to ignore. The default template includes entries for R and Python
+## The .gitignore file specifies things that git should ignore. 
+## This default template includes entries for R and Python
 
 ##
-## Add custom entries below.
+## Add custom entries below here.
 ##
 
 
