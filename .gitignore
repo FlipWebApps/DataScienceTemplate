@@ -48,6 +48,9 @@ vignettes/*.pdf
 ## Python Section - See https://github.com/github/gitignore/blob/master/Python.gitignore
 ##
 
+# PyCharm ide files
+.idea
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
