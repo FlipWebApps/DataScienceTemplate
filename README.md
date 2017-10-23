@@ -13,7 +13,7 @@ Download a copy of the files from this repository and modify as suited. In parti
 
 ```
 ├── .gitignore           <- Files that should be ignored by git. Add seperate .gitignore files in sub folders if needed
-├── .travis.yml          <- Travis CI build file
+├── .travis.yml          <- Travis CI build file (used for validating this template). Internally we might use Jenkins?
 ├── environment.yml      <- conda environment definition for ensuring consistent setup across environments
 ├── LICENSE
 ├── README.md            <- The top-level README for developers using this project.
@@ -27,7 +27,7 @@ Download a copy of the files from this repository and modify as suited. In parti
 │
 ├── docs                 <- Any specific documentation (try ideally to keep to README.md)
 │
-├── eda                  <- Exploratory analysis notebooks and files. 
+├── notebooks            <- Notebooks for EDA or otherwise.
 │   └── example.ipynb    <- Example notebook
 │
 ├── src                  <- Code for use in this project.

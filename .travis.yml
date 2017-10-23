@@ -1,6 +1,6 @@
 # This file contains build instructions for Travis CI.
 
-# language and versions (note if using conda we don't use Travid python but add hear for consistency
+# language and versions (note if using conda we don't use Travis python but add here for consistency
 language: python
 python:
     - "3.6"
