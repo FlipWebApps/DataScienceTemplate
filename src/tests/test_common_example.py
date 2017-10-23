@@ -3,11 +3,11 @@ import sys
 import numpy as np
 import pytest
 # from pandas.util.testing import assert_frame_equal
-
 from src.common import example
 
 
 def test_something():
+    # print(os.getcwd())
     assert True, "A comment to show if the test fails"
 
 
